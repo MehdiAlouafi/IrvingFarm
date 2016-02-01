@@ -299,3 +299,75 @@ input:focus {
 .nav-subscribe > div {
   display: inline-block;
 }
+
+footer {
+  height: 400px;
+  background-color: white;
+  width: 100%;
+}
+
+.footer-ul {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.col-ul {
+  /*background-color: blue;*/
+  width: 200px;
+  height: 100%;
+  float: left;
+}
+.col-ul ul {
+  list-style: none;
+  margin: 0;
+}
+.col-ul ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+.col-ul ul li:first-of-type {
+  font-size: 16px;
+}
+
+ footer .col-ul:nth-child(2) ul {
+  padding: 0;
+}
+
+.col-ul ul li {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+
+.col-ul:last-of-type ul li {
+  font-size: 20px;
+
+}
+
+.col-ul:last-of-type ul li:first-of-type {
+  font-size: 12px;
+}
+
+.first-block-container > .card {
+  position: relative;
+}
+
+.first-block-container > .card > a:after {
+  content: "";
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  opacity: 0;
+  transition: opacity 0.6s ease;
+
+
+}
+
+.first-block-container > .card > a:hover:after {
+  opacity: 1;
+}
