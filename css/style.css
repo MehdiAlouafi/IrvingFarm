@@ -183,6 +183,119 @@ nav a {
   text-decoration: none;
   color: black;
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 2%;
   font-size: 14px;
+}
+
+.third-block {
+  height: 400px;
+  background-color: #fff;
+  width: 100%;
+  padding-top: 80px;
+
+}
+
+.third-block .third-block-center {
+  width: 700px;
+  margin: 0 auto;
+  height: 250px;
+}
+
+.third-block-center > .card {
+  height: 100%;
+  width: 345px;
+  float: left;
+  margin-right: 0;
+  padding: 10px;
+  border-top: 5px solid black;
+}
+
+.third-block-center > .card2 {
+  height: 100%;
+  width: 325px;
+  float: right;
+}
+
+
+.card2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.card.card1 {
+  text-align: left;
+}
+
+.card.card1 h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.card.card1 p {
+  font-size: 12px;
+  color: #666;
+  line-height: 2;
+}
+
+
+.card.card1 a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+
+.nav-subscribe {
+  width: 100%;
+  background-color: rgba(153, 153, 153, 0.2);
+  height: 80px;
+  text-align: center;
+}
+
+.form-subscribe {
+  margin-right: 50px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  font-size: 10px;
+  color: black;
+  width: 200px;
+  transition: box-shadow 0.5s ease;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+form > a {
+  display: inline-block;
+  color: white;
+  padding: 11px 20px;
+  font-size: 10px;
+  width: 100px;
+  position: relative;
+  left: -5px;
+  text-decoration: none;
+  background-color: black;
+}
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px black;
+  border: none;
+}
+.kicker-subscribe h2 {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 300;
+  position: relative;
+  top: 10px;
+  line-height: 1.5;
+
+}
+
+.nav-subscribe > div {
+  display: inline-block;
 }
