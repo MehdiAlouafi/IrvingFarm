@@ -308,7 +308,7 @@ footer {
 }
 
 .footer-ul {
-  max-width: 1200px;
+  max-width: 980px;
   margin: 0 auto;
   height: 100%;
   padding-top: 80px;
@@ -316,7 +316,7 @@ footer {
 
 .col-ul {
   /*background-color: blue;*/
-  width: 200px;
+  width: 20%;
   height: 100%;
   float: left;
 }
@@ -407,4 +407,106 @@ nav ul li a {
 
 nav ul li a:hover {
   box-shadow: 0px 3px 0px black;
+}
+
+body{
+  padding-bottom: 60px;
+}
+
+
+.footer-ul .col-ul:last-child ul {
+  padding-left: 107px;
+}
+
+@media screen and (max-width:950px) {
+  * {
+    transition: all 0.3s ease;
+  }
+  nav ul li {
+    margin-right: 25px;
+  }
+
+  .nav-shop {
+    padding-left: 20px; padding-right: 20px;
+  }
+
+  .footer-ul {
+    width: 50%;
+  }
+
+  .footer-ul .col-ul:nth-child(3) {
+    display: none;
+  }
+  .footer-ul {
+    position: relative;
+  }
+  .footer-ul > p {
+    position: absolute;
+    bottom: 0px;
+    top: 315px;
+
+  }
+  #social-link {
+    position: absolute;
+    bottom: 140px;
+    right: 0;
+  }
+
+}
+@media screen and (min-width: 1000px) {
+  .toggle,#testons {
+    display: none;
+  }
+}
+@media screen and (max-width:670px) {
+  .card {
+    width: 35.33333%;
+
+  }
+  nav {
+    height: 50px;
+    position: relative;
+    background-color: white;
+    z-index: 5;
+  }
+
+  nav ul  {
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity: 1;
+    padding: 24px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  nav ul li:last-of-type {
+    margin-right: 25px;
+  }
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 50px;
+  }
+  nav ul li a:hover {
+    box-shadow: none;
+  }
+  #logo-in-nav {
+    display: none;
+  }
+  .toggle {
+    cursor: pointer;
+  }
+  nav ul li {
+    display: block;
+    margin-top: 5px;
+    box-shadow: none ;
+  }
+  #testons {
+    visibility: hidden;
+  }
+  #testons:checked + nav ul  {
+  opacity: 0;
+  }
+  .toggle {
+    font-size: 30px;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+  }
 }
