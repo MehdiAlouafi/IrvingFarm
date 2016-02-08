@@ -510,3 +510,21 @@ body{
     right: 10px;
   }
 }*/
+
+@media screen and (min-width: 769px){
+  .second-block-alias {
+  display: none;
+}
+
+  }
+
+.kicker-subscribe > p  {
+    display: none;
+  }
+.fa-envelope {
+  display: none;
+}
+
+.nav-mobile {
+  display: none;
+}

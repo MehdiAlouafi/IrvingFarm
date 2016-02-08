@@ -1,17 +1,164 @@
 @media screen and (max-width: 768px) {
 
 header {
-  background-position: 0px 20px;
-  /*background-repeat: no-repeat;*/
+  background-image: url('../images/home_main_mobile.jpg');
+  background-size: cover;
+  background-position: 100% -20px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  margin-bottom: 80px;
 }
 
+header > a  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
 
+header > a:hover {
+  box-shadow: none;
+}
 
+header > a:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: rgba(0, 0, 0, 0.3);
+}
 
+header > i {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-55%);
 
+}
 
+.nav-shop, nav {
+  display: none;
+}
+.first-block, .first-block-container {
+  height: 100%;
+}
+.card {
+  display: block;
+  width: 100%;
+  margin-top: 40px;
+}
+.card >a:after {
+  display: none;
 
+}
+.first-block-container {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.second-block {
+  text-align: center;
+  padding: 50px 0;
+  background-position: 100%;
+  background-size: auto;
+}
 
+.second-block > .text {
+  width: 700px;
+  height: 250px !important;
+  position: static;
+  padding: 10px 10px;
+  text-align: left;
+}
 
+.second-block > .text h2 {
+  font-size: 20px;
+}
+.second-block > .text p {
+  font-size: 14px;
+}
+
+.second-block-alias {
+  margin-top: 50px;
+}
+.form-subscribe {
+  margin: 0;
+}
+.nav-subscribe {
+  text-align: center;
+  height: 120px;
+  padding: 20px 0;
+}
+.kicker-subscribe {
+  width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+.kicker-subscribe > h2 {
+  display: none;
+}
+.kicker-subscribe > p {
+  display: block;
+  font-size: 10px;
+  margin-top: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.nav-subscribe > div {
+  display: block;
+}
+.email-subscribe > input {
+
+}
+.email-subscribe > a {
+  padding: 9px 16px;
+  top: 1px;
+}
+.fa-envelope {
+  display: inline-block;
+  font-size: 15px;
+}
+
+.subscribe-button-text {
+  display: none;
+}
+.nav-mobile {
+  display: block;
+  background-color: black;
+  padding: 20px 0;
+  position: absolute;
+  top: 0;
+  right:0;
+  left: 0;
+}
+
+.nav-mobile ul,li {
+  list-style: none;
+}
+.nav-mobile li {
+  padding: 10px 0;
+}
+
+.nav-mobile a {
+  text-decoration: none;
+  color: #fff;
+
+}
+#testons {
+  display: none;
+}
+
+#testons:checked + .nav-mobile {
+  /*top: -100%;*/
+  background-color: blue;
+}
+
+.toggle {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  z-index: 20;
+  color: white;
+  font-size: 30px;
+}
 
 }
