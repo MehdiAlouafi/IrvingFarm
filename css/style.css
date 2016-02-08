@@ -525,6 +525,10 @@ body{
   display: none;
 }
 
-.nav-mobile {
+.nav-mobile, .nav-mobile-fixed {
+  display: none;
+}
+
+#testons {
   display: none;
 }
